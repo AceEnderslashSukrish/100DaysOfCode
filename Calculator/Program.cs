@@ -18,6 +18,7 @@ switch (chc)
             sum += num;
         }
         Console.Write($"Sum is: {sum}");
+
         break;
 
     default:
