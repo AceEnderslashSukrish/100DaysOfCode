@@ -8,50 +8,54 @@ namespace Calculator
 {
     internal class Operations
     {
-        float _num1 { get; set; }
-        float _num2 { get; set; }
+        double _num1 { get; set; }
+        double _num2 { get; set; }
 
-        public Operations(float num1, float num2)
+        public Operations(double num1, double num2)
         {
             _num1 = num1;
             _num2 = num2;
         }
 
-        public float Add()
+        public double Add()
         {
             return _num1 + _num2;
         }
-        public float Add(float num1, float num2)
+        public double Add(params double[] numbers)
         {
-            return num1 + num2;
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                numbers[i+1] = numbers[i] + numbers[i+1];
+            }
+            return numbers[numbers.Length];
         }
 
-        public float Subtract()
+        public double Subtract()
         {
             return (_num1 - _num2);
         }
 
-        public float Subtract(float num1, float num2)
+        public double Subtract(double num1, double num2)
         {
             return num1 - num2;
         }
 
-        public float Divide()
+        public double Divide()
         {
             return _num1 / _num2;
         }
 
-        public float Divide(float num1, float num2)
+        public double Divide(double num1, double num2)
         {
             return num1 / num2;
         }
 
-        public float Multiply()
+        public double Multiply()
         {
             return _num1 * _num2;
         }
 
-        public float Multiple(float num1, float num2)
+        public double Multiple(double num1, double num2)
         {
             return num1 * num2;
         }
