@@ -1,5 +1,5 @@
 # 100 Days Of Code Log
-**<i>Format inspired by <a href="https://github.com/GarnettGrant/diliGentt-100-days-of-code/blob/main/log.md#100-days-of-code---log">Diligentt</a></i>**
+**<i>Format inspired by <a href="https://github.com/GarnettGrant/diliGentt-100-days-of-code/blob/main/log.md#100-days-of-code---log">Diligentt</a>, <a href="https://github.com/DragoScript/100-DOC-Journal#100-days-of-code---journal">DragoScript</a></i>**
 
 ### Day 1: Wednesday, April 27, 2022
 
