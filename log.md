@@ -8,3 +8,19 @@ Started a new Calculator application with C#. Created a new folder called 100Day
 
 **Thoughts :**
 Seems pretty easy. Simple C# code. Made a class for the classic operations (add, subtract, multiplication, division). Most of the stuff we learnt from Programming during our classes in Programming 2 course. Would like to add more complicated functions though. And also convert it into a WinForms app later as well.
+<hr>
+
+### Day 2: Thursday, April 28, 2022
+
+**Today's Progress :**
+Worked with .gitignore file.
+
+**Thoughts :**
+Sheesh! Should have started with the VisualStudio .gitignore template. Totally forgot about it when creating the project. So I had to look up so many places to carefully add the .gitignore file and implement it without accidentally deleting the whole repo. Found an answer on Stack Overflow. Had to make git "forget" the temp files for it to stop tracking the files. Even if the temp files were to be excluded due to the .gitignore, git always tracks what it already started tracking. So had to use the <a href="https://stackoverflow.com/questions/1274057/how-can-i-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitign">Stack Overflow answer</a>
+```
+git rm -r --cached .
+git add .
+git commit -am "Remove ignored files
+```
+*****<i>answered by Matt Frear, edited by Peter Mortensen</i>*****<br>
+I had to use the terminal in gitkraken to execute these git commands. I'm totally new to git commands. I've seen them before, but I've just learned about Linux commands. Just realized they look very similar (only an observation).
