@@ -33,4 +33,4 @@ Just figured out how to add images to github files.
 <img src="https://user-images.githubusercontent.com/93150595/165970055-df0ffd05-fdb7-4111-b0eb-8fe51e5d6eb1.png" alt="Image" width=250>
 </p> 
 **Thoughts :**
-Just trying to make my log.md look a little better than it was. Technically writing HTML code with the \<img>\ tag
+Just trying to make my log.md look a little better than it was. Technically writing HTML code with the tags
