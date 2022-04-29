@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    internal class Operations
+    class Operations
     {
         double _num1 { get; set; }
         double _num2 { get; set; }
 
+        public Operations()
+        {
+
+        }
         public Operations(double num1, double num2)
         {
             _num1 = num1;
@@ -21,13 +25,13 @@ namespace Calculator
         {
             return _num1 + _num2;
         }
-        public double Add(params double[] numbers)
+        public double Add(List<double> numbers)
         {
-            for (int i = 0; i < numbers.Length; i++)
+            for (int i = 0; i < numbers.Count-1; i++)
             {
                 numbers[i+1] = numbers[i] + numbers[i+1];
             }
-            return numbers[numbers.Length];
+            return numbers[numbers.Count-1];
         }
 
         public double Subtract()
