@@ -24,3 +24,13 @@ git commit -am "Remove ignored files
 ```
 *****<i>answered by Matt Frear, edited by Peter Mortensen</i>*****<br>
 I had to use the terminal in gitkraken to execute these git commands. I'm totally new to git commands. I've seen them before, but I've just learned about Linux commands. Just realized they look very similar (only an observation).
+
+### Day 3: Friday, April 29, 2022
+
+**Today's Progress :**
+Just figured out how to add images to github files.
+<p align=left>
+<img src="https://user-images.githubusercontent.com/93150595/165970055-df0ffd05-fdb7-4111-b0eb-8fe51e5d6eb1.png" alt="Image" width=250>
+</p> 
+**Thoughts :**
+Just trying to make my log.md look a little better than it was. Technically writing HTML code with the \<img>\ tag
