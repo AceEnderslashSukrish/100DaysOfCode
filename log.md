@@ -34,3 +34,19 @@ Just figured out how to add images to github files.
 </p> 
 **Thoughts :**
 Just trying to make my log.md look a little better than it was. Technically writing HTML code with the tags
+
+### Day 4: Saturday, April 30, 2022
+
+**Today's Progress :**
+Cleaned up the main method. Created a loop for the main menu.
+
+**Thoughts :**
+This was pretty simple. Just took some time to clean up the general look of the start menu. I need to transfer this into Winforms. Probably will do that by the next day. I tweaked the addition method in the Operations class to make it accept list of numbers to add; iterating through the list to add each element to the next one. So then the element becomes the new sum, and then gets added to the next number. So like cumulative addition within the list.
+
+## Day 5: Sunday, May 1, 2022
+
+**Today's Progress :**
+Worked with the subtraction method.
+
+**Thoughts :**
+This was pretty much the same as the addition method. The way it takes in a list, and then returns cumulative difference of the elements. Also tuned the main menu to be a little more user-friendly (kinda). I made some adjustments to make it a little more customized. Like, instead of saying 'What would you like to do?' all the time, it only says that for the first time the program is started up, after which, when the loop comes back, it says 'What else would you like to do?'. It's a pretty small change, but a cool one nonetheless.
