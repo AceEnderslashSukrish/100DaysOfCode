@@ -39,9 +39,13 @@ namespace Calculator
             return (_num1 - _num2);
         }
 
-        public double Subtract(double num1, double num2)
+        public double Subtract(List<double> numbers)
         {
-            return num1 - num2;
+            for (int i = 0; i < numbers.Count - 1; i++)
+            {
+                numbers[i+1] = numbers[i] - numbers[i+1];
+            }
+            return numbers[numbers.Count-1];
         }
 
         public double Divide()
