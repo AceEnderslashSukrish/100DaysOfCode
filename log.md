@@ -50,3 +50,18 @@ Worked with the subtraction method.
 
 **Thoughts :**
 This was pretty much the same as the addition method. The way it takes in a list, and then returns cumulative difference of the elements. Also tuned the main menu to be a little more user-friendly (kinda). I made some adjustments to make it a little more customized. Like, instead of saying 'What would you like to do?' all the time, it only says that for the first time the program is started up, after which, when the loop comes back, it says 'What else would you like to do?'. It's a pretty small change, but a cool one nonetheless.
+
+## Day 6: Monday, May 2, 2022
+
+**Today's Progress :**
+Worked with the Division method.
+
+**Thoughts :**
+Took a while to figure out how I could do division from values in a list. Turns out I could just replicate the same 'move through list' method to divide each number with its corresponding element. The final answer would then be the quotient. Also added the main menu option for division. Don't know why it took so long to do though. Gotta try to be more productive as the days pass.
+
+## Day 7: Tuesday, May 3, 2022
+**Today's Progress :**
+Worked with the Multiplication method.
+
+**Thoughts :**
+Pretty simple one, considering it's practically the same as the other operations. Also added it to the main menu options for the operations. Had to commit both today's and yesterday's together, as my internet disappeared (poof!) near the end of the day (usually when I sit to code). Will have to look into the WinForms application soon though.
