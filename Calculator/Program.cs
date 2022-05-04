@@ -40,6 +40,7 @@ while (rep)
             finalResult = P.Add(listOfNum);
             Console.WriteLine($"Sum is: {finalResult}");
             break;
+
         case 2:
             Console.WriteLine("How many numbers would you like to subtract?");
             length = Convert.ToInt32(Console.ReadLine());
@@ -52,6 +53,34 @@ while (rep)
             }
             finalResult = P.Subtract(listOfNum);
             Console.WriteLine($"Difference is: {finalResult}");
+            break;
+
+        case 3:
+            Console.WriteLine("How many numbers would you like to divide?");
+            length = Convert.ToInt32(Console.ReadLine());
+            listOfNum.Clear();
+            for (int i = 0; i < length; i++)
+            {
+                Console.Write("Enter number: ");
+                double num = Convert.ToDouble(Console.ReadLine());
+                listOfNum.Add(num);
+            }
+            finalResult = P.Divide(listOfNum);
+            Console.WriteLine($"Quotient is: {finalResult}");
+            break;
+
+        case 4:
+            Console.WriteLine("How many numbers would you like to multiply?");
+            length = Convert.ToInt32(Console.ReadLine());
+            listOfNum.Clear();
+            for (int i = 0; i < length; i++)
+            {
+                Console.Write("Enter number: ");
+                double num = Convert.ToDouble(Console.ReadLine());
+                listOfNum.Add(num);
+            }
+            finalResult = P.Multiply(listOfNum);
+            Console.WriteLine($"Product is: {finalResult}");
             break;
 
         default:

@@ -31,7 +31,7 @@ namespace Calculator
             {
                 numbers[i+1] = numbers[i] + numbers[i+1];
             }
-            return numbers[numbers.Count-1];
+            return numbers[numbers.Count - 1];
         }
 
         public double Subtract()
@@ -45,7 +45,7 @@ namespace Calculator
             {
                 numbers[i+1] = numbers[i] - numbers[i+1];
             }
-            return numbers[numbers.Count-1];
+            return numbers[numbers.Count - 1];
         }
 
         public double Divide()
@@ -53,9 +53,13 @@ namespace Calculator
             return _num1 / _num2;
         }
 
-        public double Divide(double num1, double num2)
+        public double Divide(List<double> numbers)
         {
-            return num1 / num2;
+            for (int i =0; i < numbers.Count-1; i++)
+            {
+                numbers[i+1] = numbers[i] / numbers[i+1];
+            }
+            return numbers[numbers.Count - 1];
         }
 
         public double Multiply()
@@ -63,9 +67,13 @@ namespace Calculator
             return _num1 * _num2;
         }
 
-        public double Multiple(double num1, double num2)
+        public double Multiply(List<double> numbers)
         {
-            return num1 * num2;
+            for (int i = 0; i < numbers.Count-1; i++)
+            {
+                numbers[i+1] = numbers[i] * numbers[i+1];
+            }
+            return numbers[numbers.Count - 1];
         }
     }
 }
