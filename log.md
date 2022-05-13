@@ -65,3 +65,11 @@ Worked with the Multiplication method.
 
 **Thoughts :**
 Pretty simple one, considering it's practically the same as the other operations. Also added it to the main menu options for the operations. Had to commit both today's and yesterday's together, as my internet disappeared (poof!) near the end of the day (usually when I sit to code). Will have to look into the WinForms application soon though.
+
+## Day 1: Friday, May 13, 2022
+
+**Today's Progress :**
+Had to start the streak again. Wasn't able to keep up consistently. Worked with creating the WinForms application.
+
+**Thoughts :**
+Should have started with this WinForms in the beginning. It's a bit different because of how the user interacts with the program. Had to rethink how the functions would have to work. I am modeling my calculator off of the Microsoft Windows 10 Calculator app. Created the First Row of buttons of the Calculator. Suprisingly difficult, but managed to get over it. The other buttons will be easier. Also have to add functionality to the buttons. Sigh, still kinda bummed I lost the 7 day streak. But I will try not to lose it again. Looks like I have to do more work converting it into a WinForms app (more than I thought at first).
